@@ -1,3 +1,20 @@
-section {
+body {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header {
+
+}
+
+.navigation {
+
+}
+
+.main {
+
+}
+
+.section {
     margin-bottom: 250px;
 }
