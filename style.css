@@ -1,20 +1,36 @@
+/*GENERAL STYLES AND FORMATTING*/
+
 body {
-    margin: auto;
+    margin: auto; /*makes the whole page move to the corners - no margin*/
     font-family: 'Courier New', Courier, monospace;
 }
 
-#header {
-
+#header, section, .footer {
+    background-color: beige;
+    padding: 100px;
 }
 
-.navigation {
+/*HEADER STYLES*/
 
-}
 
-.main {
+/*PARAGRAPH STYLES*/
 
-}
 
-.section {
-    margin-bottom: 250px;
-}
+/*INDIVIDUAL SECTIONS STYLES*/
+
+/*header*/
+
+
+/*nav*/
+
+
+/*main*/
+
+
+/*sections*/
+
+
+/*footer*/
+
+
+/*RESPONSIVE STYLING - media queries*/
