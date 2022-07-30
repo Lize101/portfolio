@@ -3,14 +3,27 @@
 body {
     margin: auto; /*makes the whole page move to the corners - no margin*/
     font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(180deg, white, beige, white, beige);
 }
 
-#header, section, .footer {
-    background-color: beige;
-    padding: 100px;
+#header, section{
+    /*background-color: #f5f5dc;*/
+    padding: 5%;
+}
+
+.hr {
+    
+    height: 5px;
+    background: linear-gradient(180deg, gold, beige, gold);
 }
 
 /*HEADER STYLES*/
+
+header {
+/* background: linear-gradient(180deg, beige, white, beige); */
+padding: 2%;
+
+}
 
 
 /*PARAGRAPH STYLES*/
@@ -34,6 +47,12 @@ body {
 
 
 /*sections*/
+
+.sectionwrap {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
 
 
 /*footer*/
