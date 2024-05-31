@@ -5,24 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-        <title>Portfolio</title>
+        <title>Digital Portfolio</title>
     </head>
     <body>
         <header class="header">
             <nav class="nav">
-                <i class="fa fa-bars mobile-toggle blackMenu"></i>
+                <i class="fa fa-bars mobile-toggle"></i>
                 <ul class="mobile-nav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#h2">About</a></li>
+                    <li><a href="#projects">Web Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#certs">Certifications</a></li>
+                    <li><a href="#certs">Certifications</a></li> <!--Take section out?-->
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="headerText">
-                <h1 class="h1">Lizette Henry</h1>
-                <h2 class="h2">Digital Specialist</h2>
+                <h1 class="h1 h1Skills">Lizette Henry</h1>
+                <h2 class="h2" id="h2">Digital Specialist</h2>
                 <hr>
                 <!-- <p class="para1">A computing graduate and website management professional, with experience as a Digital Producer, Web and Social Media Coordinator and Web Editor.</p>
                 <a href="#certs" class="cta">Certifications</a> -->
@@ -34,87 +35,192 @@
                     <p class="para1 aboutpara1">A computing graduate and website management professional, with experience as a Digital Producer, Web and Social Media Coordinator and Web Editor.</p>
                 </div>
                 <div class="container">
-                    <p class="para1 aboutpara2">Proficient in <a class="inlineLink" href="#html">Frontend Developement skills</a>, enabling me to create this Digital Specialist portfolio website, from scratch.
-                        Passionate about keeping up-to-date with the latest technology trends and continuous learning.</p>
+                    <p class="para1 aboutpara2">Proficient in <a class="inlineLink" href="#projects">Frontend Developement skills</a>, enabling me to create this Digital Specialist portfolio website, from scratch.
+                        Passionate about keeping up-to-date with the latest technology trends and continuous learning. <a class="inlineLink" href="#projects">View my web projects</a>.</p>
                 </div>
             </section>
             <div class="centreCTA">
                 <a href="#skills" class="cta">Explore my digital skills</a>
             </div>
+            <section class="Skills" id="projects">
+                <h3 class="h3">Previous Web Projects</h3>
+                <p class="para1 para2">Click below to view more information about each project.</p>
+                <div class="proj-container">
+                    <a class="proj1" href="./project-mindstrong.html">
+                        <!-- <div class="hover-text">
+                            <p class="para1">
+                                <strong><u>Project:</u></strong> Fitness<br><br>
+                                <strong><u>Services required for the project:</u></strong> Frontend Development, Web domain and hosting, Web Editing and Maintenance<br><br>
+                                <strong><u>Skills used:</u></strong> UX, coding, designing, project management, planning, testing.
+                            </p>
+                        </div> -->
+                    </a>
+                    <a class="proj2" href="./project-smoothie.html">
+                        <!-- <div class="hover-text">
+                            <p class="para1">
+                                <strong><u>Project:</u></strong> To Do List<br><br>
+                                <strong><u>Services required:</u></strong> Frontend Development, Web domain and hosting, Web Editing and Maintenance<br><br>
+                                <strong><u>Skills used:</u></strong> coding, designing, project management, planning, testing.
+                            </p>
+                        </div> -->
+                    </a>
+                    <a class="proj3" href="./project-stopwatch.html">
+                        <!-- <div class="hover-text">
+                            <p class="para1">
+                                <strong><u>Project:</u></strong> Treat Yourself<br><br>
+                                <strong><u>Services required:</u></strong> Frontend Development, Web domain and hosting, Web Editing and Maintenance<br><br>
+                                <strong><u>Skills used:</u></strong> coding, designing, project management, planning, testing.
+                            </p>
+                        </div> -->
+                    </a>
+                    <!-- <a class="proj1" href="./project-list.html">
+                        <div class="hover-text">
+                            <p class="para1">
+                                <strong><u>Project:</u></strong> Fitness<br><br>
+                                <strong><u>Services required for the project:</u></strong> Frontend Development, Web domain and hosting, Web Editing and Maintenance<br><br>
+                                <strong><u>Skills used:</u></strong> UX, coding, designing, project management, planning, testing.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="proj2" href="./project-todo.html">
+                        <div class="hover-text">
+                            <p class="para1">
+                                <strong><u>Project:</u></strong> To Do List<br><br>
+                                <strong><u>Services required:</u></strong> Frontend Development, Web domain and hosting, Web Editing and Maintenance<br><br>
+                                <strong><u>Skills used:</u></strong> coding, designing, project management, planning, testing.
+                            </p>
+                        </div>
+                    </a>
+                    <a class="proj3" href="./skills-work-sample-analytics.html">
+                        <div class="hover-text">
+                            <p class="para1">
+                                <strong><u>Project:</u></strong> Treat Yourself<br><br>
+                                <strong><u>Services required:</u></strong> Frontend Development, Web domain and hosting, Web Editing and Maintenance<br><br>
+                                <strong><u>Skills used:</u></strong> coding, designing, project management, planning, testing.
+                            </p>
+                        </div>
+                    </a> -->
+                </div>
+            </section>
             <section class="Skills" id="skills">
-                <h3 class="h3">Skills & Experiences</h3>
+                <h3 class="h3 h3skill">Skills & Experiences</h3>
                 <div class="grid-container">
-                    <a class="seo" href="./skills-work-sample-seo.html">
-                        <div class="grid-item beforeHoverText">
-                            Search Engine<br>Optimisation<br>(SEO)
+                    <!-- <a class="html" id="html" href="./skills-html.html"> -->
+                        <div class="html">
+                            <p>HyperText<br>Markup Language<br>(HTML)</p>
+                            <div class="hover-text">
+                                <p class="para1">Frequent use of HTML to create the foundations of many websites, from scratch, as well as to edit existing website structures and content.</p>
+                            </div>
                         </div>
+                    <!-- </a> -->
+                    <!-- <a class="css" href="./skills-css.html"> -->
+                        <div class="css">
+                            <p>Cascading<br>Style Sheets<br>(CSS)</p>
+                            <div class="hover-text">
+                                <p class="para1">Strong CSS skills, used to style my own personal website projects, as well as large corporate/ commercial websites.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <!-- <a class="js" href="./skills-js.html"> -->
+                        <div class="js">
+                            <p>JavaScript <br> (JS)</p>
+                            <div class="hover-text">
+                                <p class="para1">Experience creating dynamic and interactive websites, using a range of JavaScript features.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <!-- <a class="react" href="./skills-react.html"> -->
+                        <div class="react">
+                            <p>ReactJS</p>
+                            <div class="hover-text">
+                                <p class="para1">Use of ReactJS to create user friendly, modular component-based web appplications.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <!-- <a class="api" href="./skills-api.html"> -->
+                        <div class="api">
+                            <p>API & Postman</p>
+                            <div class="hover-text">
+                                <p class="para1">Successfully integrated a range of APIs into my website projects. Additionally, also have experience using Postman for API testing.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <!-- <a class="aws" href="./skills-aws.html"> -->
+                        <div class="aws">
+                            <p>Amazon<br>Web Services<br>(AWS)</p>
+                            <div class="hover-text">
+                                <p class="para1">Created and set up hosting for my web applications, in the cloud platform, AWS.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <!-- <a class="ux" href="./skills-ux.html"> -->
+                        <div class="ux">
+                            <p>User Experience<br>(UX)</p>
+                            <div class="hover-text">
+                                <p class="para1">The experience that users have when visiting each web project, is at the forefront of my priorities, when I create any website. Use of key UX strategies and best practices.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <!-- <a class="seo" href="./skills-seo.html"> -->
+                        <div class="seo">
+                            <p>Search Engine<br>Optimisation<br>(SEO)</p>
+                            <div class="hover-text">
+                                <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <!-- <a class="access" href="./skills-accessibility.html"> -->
+                        <div class="access">
+                            <p>Accessibility</p>
+                            <div class="hover-text">
+                                <p class="para1">At the forefront of all of my website projects, is the necessity of making them accessible to all users.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <div class="access">
+                        <p>Git & GitHub</p>
                         <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
-                        </div>
-                    </a>
-                    <a class="ux" href="./skills-work-sample-ux.html">
-                        <div class="grid-item beforeHoverText">
-                            User Experience<br>(UX)
-                        </div>
-                        <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
-                        </div>
-                    </a>
-                    <a class="analytics" href="./skills-work-sample-analytics.html">
-                        <div class="grid-item beforeHoverText">
-                            Analytics
-                        </div>
-                        <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
-                        </div>
-                    </a>
-                    <a class="access" href="./skills-work-sample-accessibility.html">
-                        <div class="grid-item beforeHoverText">
-                            Accessibility
-                        </div>
-                        <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
-                        </div>
-                    </a>
-                    <div class="cms grid-item beforeHoverText">
-                        Content Management<br>System<br>(CMS)
-                        <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
+                            <p class="para1">Experience using Git for version control and GitHub for code storage and hosting.</p>
                         </div>
                     </div>
-                    
-                    <a class="html" id="html" href="./skills-work-sample-html.html">
-                        <div class="grid-item beforeHoverText">
-                            HyperText<br>Markup Language<br>(HTML)
+                    <!-- <a class="analytics" href="./skills-analytics.html"> -->
+                        <div class="analytics">
+                            <p>Analytics</p>
+                            <div class="hover-text">
+                                <p class="para1">The importance of analysing users' interactivity with websites is vital in knowing what is working well, and what needs altering.</p>
+                            </div>
                         </div>
+                    <!-- </a> -->
+                    <!-- <a class="design" href="./skills-design.html"> -->
+                        <div class="design">
+                            <p>Design Tools<br> (Figma & Canva)</p>
+                            <div class="hover-text">
+                                <p class="para1">Key design tools, such as Figma and Canva have been essential in creating mock-ups and making my website projects and creative ideas come to fruition.</p>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                    <div class="cms">
+                        <p>Content Management<br>System<br>(CMS)</p>
                         <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
-                        </div>
-                    </a>
-                    <a class="css" href="./skills-work-sample-css.html">
-                        <div class="grid-item">
-                            Cascading<br>Style Sheets<br>(CSS)
-                        </div>
-                        <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
-                        </div>
-                    </a>
-                    <div class="qa grid-item">
-                        Quality Assurance<br>(QA)
-                        <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
+                            <p class="para1">Having the exposure to a variety of CMS, within corporate environments, has allowed me to manage, edit and maintain large-scale data-driven websites.</p>
                         </div>
                     </div>
-                    <div class="socialMedia grid-item">
-                        Social Media
+                    <div class="qa">
+                        <p>Quality Assurance<br>(QA)</p>
                         <div class="hover-text">
-                            <p class="para1">Successfully implemented SEO strategies that significantly improved organic website traffic and search engine rankings for a diverse range of clients across various industries.</p>
+                            <p class="para1">Website maintenance/ well-rounded websites, in the form of QA, has been achieved for corporate websites as well as my personal projects.</p>
+                        </div>
+                    </div>
+                    <div class="socialMedia">
+                        <p>Social Media</p>
+                        <div class="hover-text">
+                            <p class="para1">Experienced in creating, scheduling and posting high quality and engaging content across various social media platforms.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="Certs grid-item" id="certs">
-                <h3 class="h3">Certifications from...</h3>
+            <!-- <section class="Certs grid-item" id="certs"> -->
+                <!-- <h3 class="h3">Certifications Achievements From...</h3>
                 <p class="para1 para2">Click below to find out more information about each of my certifications.</p>
                 <div class="container2">
                     <a href="" class="lbsItem"><img src="./images/Certifications/LBS-logo.png" width="150px" alt="LBS logo"></a>
@@ -123,7 +229,7 @@
                     <a href="" class="gskillItem"><img src="./images/Certifications/GSkillshop-logo.png" width="230px" alt="Google Skillshop logo"></a>
                     <a href="" class="siteItem"><img src="./images/Certifications/Siteimprove-logo.png" width="270px" alt="Siteimprove logo"></a>
                     <a href="" class="codeItem"><img src="./images/Certifications/Codecademy-logo.png" width="250px" alt="Codecademy logo"></a>
-                </div>
+                </div> -->
 
                     <!-- <div class="centreCTA">
                         <a href="" class="cta">Mastering Digital Marketing: SEM SEO Social Media and Beyond - LBS</a><br>
@@ -133,10 +239,10 @@
                         <a href="" class="cta">CSS - Codecademy</a><br>
                         <a href="" class="cta">Git and GitHub - Codecademy</a>
                     </div> -->
-            </section>
+            <!-- </section> -->
             <section class="Words" id="testimonials">
-                <h3 class="h3words">What Stakeholders Say About Me...</h3>
-                        <p class="para1 para2">I've been fortunate to work with a variety of talented and hard-working professionals. Here are some endorsements provided, by them, about me!</p>
+                <h3 class="h3words" style="color: #fff;">What Stakeholders Say About Me...</h3>
+                        <p class="para1 para2" style="color: #fff1f3;">I've been fortunate to work with a variety of talented and hard-working professionals. Here are some endorsements provided, by them, about me!</p>
                 <div class="containerWords">
                     <div class="words1">
                         <div class="wordBox">
@@ -177,8 +283,7 @@
             </section>
             <section class="contact grid-item" id="contact">
                 <h3 class="h3">Contact</h3>
-                <p class="para1">To learn more about my skills and experiences, or to contact me regarding collaborating on a digial project, you can find me on <a href="" class="inlineLink" target="_blank">LinkedIn</a>, below.
-                    <br>My CV can be sent on request.</p>
+                <p class="para1 leftText">To learn more about my skills and experiences, or to contact me regarding collaborating on a digial project, you can find me on <a href="" class="inlineLink" target="_blank">LinkedIn</a>, below. My CV can be sent on request.</p>
             </section>
         </main>
         <footer class="footer">
