@@ -35,6 +35,10 @@ hr {
     transition: 0.3s ease;
 }
 
+.design-container {
+    text-align: center;
+}
+
 .grid-container2 {
     display: grid;
     grid-template-areas: 'desktopDiv desktopDiv desktopDiv desktopDiv desktopDiv desktopDiv'
@@ -736,6 +740,12 @@ a {
 
 body {
     font-size: 18px;
+}
+
+.design-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 0 120px 300px;
 }
 
 .grid-container {
