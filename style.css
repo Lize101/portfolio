@@ -61,7 +61,7 @@ hr {
     'proj5 proj5 proj5 proj5 proj5 proj5'
     'proj6 proj6 proj6 proj6 proj6 proj6'; */
     text-align: center;
-    min-height: 350vh;
+    min-height: 280vh;
     gap: 25px;
     margin: 0 20px;
 }
@@ -81,7 +81,7 @@ hr {
     'socialMedia socialMedia socialMedia socialMedia socialMedia socialMedia'; */
     text-align: center;
     min-height: 100vh;
-    gap: 15px;
+    gap: 10px;
 }
 
 .container2 {
@@ -102,7 +102,7 @@ hr {
 .proj1 {
     /* grid-area: proj1; */
     background: url('./images/Projects/MindStrong\ desktop.png') center no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
 
 .proj2 {
@@ -634,6 +634,12 @@ a {
 
 @media (min-width: 480px) {
 
+/*GENERAL*/
+
+.proj-container {
+    min-height: 350vh;
+}
+
 /*TEXT*/
 
 .para1 {
@@ -662,6 +668,13 @@ a {
 
 
 @media (min-width: 768px) {
+
+    /*GENERAL*/
+
+    .proj-container {
+        min-height: 450vh;
+        gap: 40px;
+    }
 
     .About{
         margin: 0 80px;
@@ -777,6 +790,7 @@ body {
     'proj4 proj4 proj5 proj5 proj6 proj6'; */
     min-height: 120vh;
     margin: 0 100px;
+    gap: 25px;
 }
 
 .grid-contain {
