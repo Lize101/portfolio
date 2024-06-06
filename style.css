@@ -943,7 +943,7 @@ body {
 
 .proj4:hover {
     /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/Projects/to\ do\ mobile\ project.png') center no-repeat; */
-    background: url('./images/Projects//stop\ watch\ mobile.jpg') center no-repeat;
+    background: url('./images/Projects/stop\ watch\ mobile.png') center no-repeat;
     background-size: cover;
     transition: 1s ease;
 }   
