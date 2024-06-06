@@ -624,6 +624,7 @@ a {
 .socialImg {
     width: 35px;
     height: 35px;
+    margin: 0 3px;
 }
 
 .copy {
