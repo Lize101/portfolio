@@ -17,7 +17,7 @@ let fetch;
     const app = express();
 
     const corsOptions = {
-        origin: 'https://lize101.github.io',
+        origin: 'https://dazzling-baklava-6e882a.netlify.app/',
     };
 
     app.use(cors(corsOptions));
