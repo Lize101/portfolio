@@ -1,7 +1,7 @@
-const apiURL = '';
+// const apiURL = 'http://localhost:3000/instagram-feed';
 
             // Make API request
-            fetch(apiURL)
+            fetch('https://stirring-crisp-3019fb.netlify.app/instagram-feed')
             .then(response => response.json())
             .then(data => {
                 const feedContainer = document.getElementById('instagram-feed');

@@ -1,6 +1,7 @@
 // server.js
 
 const express = require('express');
+const cors = require('cors');
 require('dotenv').config();
 
 let fetch;
@@ -14,6 +15,13 @@ let fetch;
     }
 
     const app = express();
+
+    const corsOptions = {
+        origin: 'https://lize101.github.io/portfolio/',
+    };
+
+    app.use(cors(corsOptions));
+
     const port = process.env.PORT || 3000;
 
     const userProfileEndpoint = process.env.INSTAGRAM_API_ENDPOINT;
