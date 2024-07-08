@@ -17,7 +17,7 @@ let fetch;
     const app = express();
 
     const corsOptions = {
-        origin: 'https://lize101.github.io/portfolio/',
+        origin: 'https://lize101.github.io',
     };
 
     app.use(cors(corsOptions));
